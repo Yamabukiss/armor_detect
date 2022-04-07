@@ -1,0 +1,8 @@
+prefix=/home/yamabuki/opencv_ws/src/cv_06/cmake-build-debug/devel
+
+Name: cv_06
+Description: Description of cv_06
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="nodelet_manager"  args="manager" output="screen"/>
+  <!-- nodelet'tag should follow obey the following format -->
+  <node pkg="nodelet" type="nodelet" name="MainClass" args="load aaa/MainClass nodelet_manager" output="screen"/>
+</launch>

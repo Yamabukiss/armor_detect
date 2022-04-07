@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yamabuki/opencv_ws/src/cv_06/cmake-build-debug/devel/setup.sh

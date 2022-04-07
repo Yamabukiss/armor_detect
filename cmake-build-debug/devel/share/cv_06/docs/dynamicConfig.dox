@@ -1,0 +1,16 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~threshold_maxval" : \b [int] threshold_maxval min: 0, default: 255, max: 255
+- \b "~dilate_iterations" : \b [int] dilate_iterations min: 0, default: 1, max: 10
+- \b "~erode_iterations" : \b [int] erode_iterations min: 0, default: 1, max: 10
+- \b "~light_contour_area_assignment" : \b [int] light_contour_area_assignment min: 1, default: 10, max: 30
+- \b "~contour_angle_assignment" : \b [int] contour_angle_assignment min: 1, default: 8, max: 20
+- \b "~ratio_of_length_difference" : \b [double] ratio_of_length_difference min: 0.0, default: 0.5, max: 1.0
+- \b "~ratio_of_wideth_difference" : \b [double] ratio_of_wideth_difference min: 0.0, default: 0.5, max: 1.0
+- \b "~more_length_width_ratio" : \b [double] more_length_width_ratio min: 0.0, default: 5.0, max: 10.0
+- \b "~less_length_width_ratio" : \b [double] less_length_width_ratio min: 0.0, default: 1.0, max: 5.0
+- \b "~less_ratio_of_x_difference" : \b [double] less_ratio_of_x_difference min: 0.0, default: 0.5, max: 1.0
+- \b "~more_ratio_of_y_difference" : \b [double] more_ratio_of_y_difference min: 1.0, default: 2.0, max: 3.0
+

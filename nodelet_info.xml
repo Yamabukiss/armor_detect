@@ -1,0 +1,5 @@
+<library path="lib/libmain6">
+    <class name="aaa/MainClass" type="cv_06::MainClass" base_class_type="nodelet::Nodelet">
+        <description> the nodelet of dectecting armor </description>
+    </class>
+</library>

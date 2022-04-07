@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Sub" pkg="cv_06" type="Sub">
+  <param name="threshold_maxval" type="int" value="255" />
+  <param name="dilate_iterations" type="int" value="1" />
+  <param name="erode_iterations" type="int" value="1" />
+  <param name="light_contour_area_assignment" type="int" value="10" />
+  <param name="contour_angle_assignment" type="int" value="8" />
+  <param name="ratio_of_length_difference" type="double" value="0.5" />
+  <param name="ratio_of_wideth_difference" type="double" value="0.5" />
+  <param name="more_length_width_ratio" type="double" value="5.0" />
+  <param name="less_length_width_ratio" type="double" value="1.0" />
+  <param name="less_ratio_of_x_difference" type="double" value="0.5" />
+  <param name="more_ratio_of_y_difference" type="double" value="2.0" />
+</node>
+\endverbatim
+
